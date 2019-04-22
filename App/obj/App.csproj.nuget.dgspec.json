@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marzi/C#/LOLStatsWeb/App/App.csproj": {}
+  },
+  "projects": {
+    "/home/marzi/C#/LOLStatsWeb/App/App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marzi/C#/LOLStatsWeb/App/App.csproj",
+        "projectName": "App",
+        "projectPath": "/home/marzi/C#/LOLStatsWeb/App/App.csproj",
+        "packagesPath": "/home/marzi/.nuget/packages/",
+        "outputPath": "/home/marzi/C#/LOLStatsWeb/App/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/marzi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp.AspNetCore/RiotSharp.AspNetCore.csproj": {
+                "projectPath": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp.AspNetCore/RiotSharp.AspNetCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp.AspNetCore/RiotSharp.AspNetCore.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp.AspNetCore/RiotSharp.AspNetCore.csproj",
+        "projectName": "RiotSharp.AspNetCore",
+        "projectPath": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp.AspNetCore/RiotSharp.AspNetCore.csproj",
+        "packagesPath": "/home/marzi/.nuget/packages/",
+        "outputPath": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp.AspNetCore/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/marzi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "projectReferences": {
+              "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp/RiotSharp.csproj": {
+                "projectPath": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp/RiotSharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-*, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          }
+        }
+      }
+    },
+    "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp/RiotSharp.csproj": {
+      "version": "4.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp/RiotSharp.csproj",
+        "projectName": "RiotSharp",
+        "projectPath": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp/RiotSharp.csproj",
+        "packagesPath": "/home/marzi/.nuget/packages/",
+        "outputPath": "/home/marzi/C#/LOLStatsWeb/RiotSharp/RiotSharp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/marzi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-*, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "OpenCover": {
+              "include": "None",
+              "target": "Package",
+              "version": "[4.6.519, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

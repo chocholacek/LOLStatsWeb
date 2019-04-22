@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var name = "";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form method="get" asp-controller="Summoner" asp-action="Detail" asp-route-name="@name" >
+        <input asp-for="@name" />
+        <button type="submit">Submit</button>
+    </form>
+</div>
