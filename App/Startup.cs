@@ -36,7 +36,7 @@ namespace App
 
             services.AddRiotSharp(opts => 
             {
-                opts.RiotApi.ApiKey = "RGAPI-d25b9a59-ebed-4431-aba0-3d652142c696";
+                opts.RiotApi.ApiKey = "RGAPI-47ed45b1-87bd-4b43-9d5b-4f1ba45ce244";
             });
 
             services.AddAutoMapper();
