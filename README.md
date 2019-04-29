@@ -1,8 +1,9 @@
 # PB138 - Web app for League of Legends statistics
 
 Team members:
-- Marek Chocholacek (backend dev)
-- Robert Tamas (frontend dev)
+- Marek Chocholáček (project leader, backend dev)
+- Róbert Tamáš (frontend dev)
+- Adam Skrášek (backend dev)
 
 Sepecification:
 - App is developed on .net core 2.2
