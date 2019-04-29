@@ -15,8 +15,12 @@ using RiotSharp.AspNetCore;
 
 namespace App
 {
+
     public class Startup
     {
+        private string _apiKey = null;
+
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -34,9 +38,11 @@ namespace App
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            _apiKey = Configuration["apikey"];
+
             services.AddRiotSharp(opts => 
             {
-                opts.RiotApi.ApiKey = "RGAPI-47ed45b1-87bd-4b43-9d5b-4f1ba45ce244";
+                opts.RiotApi.ApiKey = _apiKey;
             });
 
             services.AddAutoMapper();
