@@ -34,3 +34,4 @@
 /home/marzi/C#/LOLStatsWeb/App/bin/Debug/netcoreapp2.2/RiotSharp.pdb
 /home/marzi/C#/LOLStatsWeb/App/obj/Debug/netcoreapp2.2/Razor/Views/Summoner/Detail.g.cshtml.cs
 /home/marzi/C#/LOLStatsWeb/App/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_SearchPartial.g.cshtml.cs
+/home/marzi/C#/LOLStatsWeb/App/obj/Debug/netcoreapp2.2/Razor/Views/Champions/Free.g.cshtml.cs

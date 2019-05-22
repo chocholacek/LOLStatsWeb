@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using App.Data;
+using App.Services.Base;
+using App.Services.Champion;
 using App.Services.Summoner;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
@@ -47,6 +52,12 @@ namespace App
 
             services.AddAutoMapper();
 
+            services.AddSingleton<IDbContext, XmlDbContext>(p => new XmlDbContext("db.xml"));
+
+            services.AddScoped<ServiceBase>();
+
+            services.AddScoped<IChampionService, ChampionService>();
+
             services.AddScoped<ISummonerService, SummonerService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -74,11 +85,11 @@ namespace App
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{name?}");
 
                 routes.MapRoute(
                     name: "summoner",
-                    template: "{controller=Summoner}/{action=Detail}/{name}"
+                    template: "{controller=Summoner}/{name}"
                 );
             });
         }

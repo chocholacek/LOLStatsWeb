@@ -1,11 +1,67 @@
 @model SummonerDto
 
+@{
+    var blue = 100;
+    var red = 200;
+}
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
 <h2>@Model.Name</h2>
 <table>
     <tbody>
         <tr>
-            <td>level</td>
-            <td>@Model.Level</td>
+            <td>level: @Model.Level</td>
         </tr>
     </tbody>
 </table>
+
+<form method="post">
+    <button type="submit">Update</button>
+</form>
+
+<table>
+    <tbody>
+        @foreach (var m in @Model.Matches)
+        {
+            <tr style='background: @(m.Won(Model.Name) ? "cornflowerblue" : "red");'>
+                <td>Game duration: @m.GameDuration</td>
+                <td>
+                    <div>Blue team:</div>
+                    <div>
+                        <table>
+                            <tbody>
+                                @foreach (var p in m.Participants.Where(p => p.TeamId == blue))
+                                {
+                                    <tr>
+                                        <td>@p.SummonerName</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div>Red team:</div>
+                    <div>
+                        <table>
+                            <tbody>
+                                @foreach (var p in m.Participants.Where(p => p.TeamId == red))
+                                {
+                                    <tr>
+                                        <td>@p.SummonerName</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
