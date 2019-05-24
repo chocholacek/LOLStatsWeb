@@ -17,6 +17,9 @@ table, th, td {
         <tr>
             <td>level: @Model.Level</td>
         </tr>
+        <tr>
+            <td>Tier: Iron IV</td>
+        </tr>
     </tbody>
 </table>
 
@@ -29,7 +32,22 @@ table, th, td {
         @foreach (var m in @Model.Matches)
         {
             <tr style='background: @(m.Won(Model.Name) ? "cornflowerblue" : "red");'>
-                <td>Game duration: @m.GameDuration</td>
+                @{
+                    var ago = DateTime.Now.Subtract(m.GameCreation);
+                    var dur = m.GameDuration;
+                }
+                <td>
+                    <div>@(m.Won(Model.Name) ? "Victory" : "Defeat")</div>
+                    @if (ago.Days > 0)
+                    {
+                        <div>@ago.Days days ago</div>
+                    }
+                    else
+                    {
+                        <div>@($"{ago.Hours}h {ago.Minutes}m ago")</div>
+                    }
+                    <div>duration: @($"{dur.Minutes}m {dur.Seconds}s")</div>
+                </td>
                 <td>
                     <div>Blue team:</div>
                     <div>
@@ -38,7 +56,14 @@ table, th, td {
                                 @foreach (var p in m.Participants.Where(p => p.TeamId == blue))
                                 {
                                     <tr>
-                                        <td>@p.SummonerName</td>
+                                        @if (p.SummonerName != Model.Name)
+                                        {
+                                            <td><a asp-route-name="@p.SummonerName">@p.SummonerName</a></td>
+                                        }
+                                        else
+                                        {
+                                            <td>@Model.Name</td>
+                                        }                                     
                                     </tr>
                                 }
                             </tbody>
@@ -53,7 +78,14 @@ table, th, td {
                                 @foreach (var p in m.Participants.Where(p => p.TeamId == red))
                                 {
                                     <tr>
-                                        <td>@p.SummonerName</td>
+                                        @if (p.SummonerName != Model.Name)
+                                        {
+                                            <td><a asp-route-name="@p.SummonerName">@p.SummonerName</a></td>
+                                        }
+                                        else
+                                        {
+                                            <td>@Model.Name</td>
+                                        }   
                                     </tr>
                                 }
                             </tbody>

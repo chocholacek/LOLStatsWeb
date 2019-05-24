@@ -7,7 +7,7 @@ namespace App.Data.Entities
 {
     public class MatchDto
     {
-        [XmlElement("duration")]
+        [XmlElement("dur")]
         public TimeSpan GameDuration { get; set; }
 
         [XmlElement("participant")]
@@ -15,6 +15,9 @@ namespace App.Data.Entities
 
         [XmlAttribute("w")]
         public int WinningTeam {get; set;}
+
+        [XmlElement("at")]
+        public DateTime GameCreation { get; set; }
 
         public bool Won(string name)
         {
