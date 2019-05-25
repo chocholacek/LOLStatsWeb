@@ -21,7 +21,7 @@ namespace App.Services.Summoner
             
         public async Task<SummonerDto> GetSummonerAsync(string name)
         {
-            name = Regex.Replace(name, @"\s+", "");
+            name = FormatSummonerName(name);
             var sum = Db.Summoners.FirstOrDefault(s => s.Name.ToLower() == name.ToLower());
             if (sum == null)
             {
@@ -42,8 +42,10 @@ namespace App.Services.Summoner
 
         public async Task<SummonerDto> UpdateSummonerAsync(string name)
         {
-            name = Regex.Replace(name, @"\s+", "");
-            var dto = Db.Summoners.First(s => s.Name.ToLower() == name.ToLower());
+            name = FormatSummonerName(name);
+            var dto = Db.Summoners.First(s => s.Name.ToLower() == name);
+            var summoner = await Api.Summoner.GetSummonerByAccountIdAsync(Region.Eune, dto.AccountId);
+            dto.Level = summoner.Level;
             var games = await Api.Match.GetMatchListAsync(Region.Eune, dto.AccountId);
             var matches = games.Matches
                 .OrderByDescending(m => m.Timestamp)
@@ -54,6 +56,12 @@ namespace App.Services.Summoner
             dto.Matches = Mapper.Map<List<MatchDto>>(matches);
             await Db.SaveChangesAsync();
             return dto;
+        }
+
+        private string FormatSummonerName(string name)
+        {
+           string formatedName = Regex.Replace(name, @"\s+", "").ToLower();
+            return formatedName;
         }
     }
 }
