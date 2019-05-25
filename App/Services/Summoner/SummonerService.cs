@@ -9,6 +9,7 @@ using App.Data.Entities;
 using System.Collections;
 using System.Collections.Generic;
 using App.Services.Base;
+using System.Text.RegularExpressions;
 
 namespace App.Services.Summoner
 {
@@ -20,7 +21,8 @@ namespace App.Services.Summoner
             
         public async Task<SummonerDto> GetSummonerAsync(string name)
         {
-            var sum = Db.Summoners.FirstOrDefault(s => s.Name == name);
+            name = Regex.Replace(name, @"\s+", "");
+            var sum = Db.Summoners.FirstOrDefault(s => s.Name.ToLower() == name.ToLower());
             if (sum == null)
             {
                 try
@@ -40,7 +42,8 @@ namespace App.Services.Summoner
 
         public async Task<SummonerDto> UpdateSummonerAsync(string name)
         {
-            var dto = Db.Summoners.First(s => s.Name == name);
+            name = Regex.Replace(name, @"\s+", "");
+            var dto = Db.Summoners.First(s => s.Name.ToLower() == name.ToLower());
             var games = await Api.Match.GetMatchListAsync(Region.Eune, dto.AccountId);
             var matches = games.Matches
                 .OrderByDescending(m => m.Timestamp)
