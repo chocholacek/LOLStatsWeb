@@ -20,5 +20,9 @@ namespace App.Data.Entities
 
         [XmlElement("match")]
         public List<MatchDto> Matches { get; set; } = new List<MatchDto>();
+
+        [XmlElement("winrate")]
+        public int Winrate {get; set;} = 0;
+
     }
 }

@@ -17,8 +17,8 @@ namespace App.Services.Summoner
     {
 
         public SummonerService(IRiotApi api, IMapper mapper, IDbContext db)
-            : base(api, mapper, db) {}
-            
+            : base(api, mapper, db) { }
+
         public async Task<SummonerDto> GetSummonerAsync(string name)
         {
             name = FormatSummonerName(name);
@@ -52,15 +52,18 @@ namespace App.Services.Summoner
                 .Take(10)
                 .Select(m => Api.Match.GetMatchAsync(Region.Eune, m.GameId).Result)
                 .ToList();
-            
             dto.Matches = Mapper.Map<List<MatchDto>>(matches);
+            dto.Winrate = dto.Matches.Aggregate(0, (a, b) =>
+            {
+                return (b.WinningTeam == b.Participants.Where(x => x.SummonerName == dto.Name).Select(t => t.TeamId).First()) ? a + 1 : a + 0;
+            });
             await Db.SaveChangesAsync();
             return dto;
         }
 
         private string FormatSummonerName(string name)
         {
-           string formatedName = Regex.Replace(name, @"\s+", "").ToLower();
+            string formatedName = Regex.Replace(name, @"\s+", "").ToLower();
             return formatedName;
         }
     }
