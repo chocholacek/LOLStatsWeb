@@ -15,10 +15,12 @@ namespace App.Data
         [XmlElement("version")]
         public string Version { get; set; }
 
-        [XmlElement("summoner")]
+        [XmlArray("summoners")]
+        [XmlArrayItem("summoner")]
         public List<SummonerDto> Summoners { get; } = new List<SummonerDto>();
 
         [XmlArray("champions")]
+        [XmlArrayItem("champion")]
         public List<ChampionDto> Champions { get; set; } = new List<ChampionDto>();
         
 
