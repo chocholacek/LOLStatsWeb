@@ -45,9 +45,9 @@ namespace App.Services.Summoner
             name = FormatSummonerName(name);
             var dto = Db.Summoners.First(s => s.Name.ToLower() == name);
             var summoner = await Api.Summoner.GetSummonerByAccountIdAsync(Region.Eune, dto.AccountId);
+            dto = Mapper.Map<SummonerDto>(summoner);
             var positions = await Api.League.GetLeaguePositionsAsync(Region.Eune, dto.SummonerId);
             dto.Ranks = Mapper.Map<List<LeagueDto>>(positions);
-            dto.Level = summoner.Level;
             var games = await Api.Match.GetMatchListAsync(Region.Eune, dto.AccountId);
             var matches = games.Matches
                 .OrderByDescending(m => m.Timestamp)
