@@ -3,6 +3,30 @@
 @{
     var blue = 100;
     var red = 200;
+
+    var qt = new Dictionary<string,string>
+    {
+        ["RANKED_SOLO_5x5"] = "Solo/Duo",
+        ["RANKED_FLEX_SR"] = "Flex 5v5",
+        ["RANKED_FLEX_TT"] = "Flex 3v3"
+    };
+
+    int WR(double wr)
+    {
+        return (int)Math.Ceiling(wr * 100);
+    }
+
+    int Wins()
+    {
+        return Model.Matches
+            .Where(m => m.Won(Model.Name))
+            .Count();
+    }
+
+    int Loses()
+    {
+        return 10 - Wins();
+    }
 }
 
 <style>
@@ -18,9 +42,15 @@ table, th, td {
             <td>level: @Model.Level</td>
         </tr>
         <tr>
-            <td>Tier: Iron IV</td>
+            @foreach (var r in Model.Ranks)
+            {
+                <td>
+                    <div>@qt[r.QueueType]</div>
+                    <div>@(WR(r.Winrate))% winrate</div>
+                </td>
+            }
+            
         </tr>
-        <td>Wins: @Model.Winrate</td>
     </tbody>
 </table>
 
@@ -29,6 +59,14 @@ table, th, td {
 </form>
 
 <table>
+    <thead>
+        <tr>
+            <td>@(Wins())W</td>
+            <td>@(Loses())L</td>
+            <td>Win ratio: @(Model.Winrate / 0.1)%</td>
+        </tr>
+        
+    </thead>
     <tbody>
         @foreach (var m in @Model.Matches)
         {

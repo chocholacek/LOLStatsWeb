@@ -18,11 +18,17 @@ namespace App.Data.Entities
         [XmlAttribute("aid")]
         public string AccountId { get; set; }
 
+        [XmlAttribute("sid")]
+        public string SummonerId { get; set; }
+
+        [XmlElement("rank")]
+        public List<LeagueDto> Ranks { get; set; } = new List<LeagueDto>();
+
         [XmlElement("match")]
         public List<MatchDto> Matches { get; set; } = new List<MatchDto>();
 
-        [XmlElement("winrate")]
-        public int Winrate {get; set;} = 0;
+        [XmlElement("wr")]
+        public int Winrate { get; set; }
 
     }
 }

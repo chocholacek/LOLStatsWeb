@@ -4,6 +4,7 @@ using RiotSharp.Endpoints.SummonerEndpoint;
 using RiotSharp.Endpoints.MatchEndpoint;
 using System.Linq;
 using RiotSharp.Endpoints.ChampionEndpoint;
+using RiotSharp.Endpoints.LeagueEndpoint;
 
 namespace App.Data.Profiles
 {
@@ -11,7 +12,8 @@ namespace App.Data.Profiles
     {
         public DtoProfiles()
         {
-            CreateMap<Summoner, SummonerDto>();
+            CreateMap<Summoner, SummonerDto>()
+                .ForMember(dest => dest.SummonerId, src => src.MapFrom(s => s.Id));
 
             object selector(Match match, MatchDto dto)
             {
@@ -36,6 +38,9 @@ namespace App.Data.Profiles
                     m => m.MapFrom(src => src.Teams.First(t => t.Win == "Win").TeamId));
 
             CreateMap<Champion, ChampionDto>();
+
+            CreateMap<LeaguePosition, LeagueDto>()
+                .ForMember(dest => dest.Winrate, m => m .MapFrom(src => (double)src.Wins / (src.Wins + src.Losses)));
         }
     }
 }

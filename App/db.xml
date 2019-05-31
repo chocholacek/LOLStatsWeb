@@ -1,284 +1,162 @@
 <?xml version="1.0"?>
 <XmlDbContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <summoner id="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM" aid="wyi7pBsRQaJCLYkPP-TUETdBsWVIhmfOF5VXhUtap8_RKa4">
+  <summoner id="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM" aid="wyi7pBsRQaJCLYkPP-TUETdBsWVIhmfOF5VXhUtap8_RKa4" sid="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM">
     <name>Marzi</name>
-    <level>156</level>
+    <level>157</level>
+    <rank q="RANKED_SOLO_5x5" wr="0.54022988505747127">
+      <rank>IV</rank>
+      <tier>DIAMOND</tier>
+    </rank>
+    <rank q="RANKED_FLEX_SR" wr="0.47619047619047616">
+      <rank>III</rank>
+      <tier>GOLD</tier>
+    </rank>
+    <rank q="RANKED_FLEX_TT" wr="0.55555555555555558">
+      <rank>III</rank>
+      <tier>SILVER</tier>
+    </rank>
     <match w="200">
-      <dur>PT26M57S</dur>
-      <participant name="U wat m8" cid="154" tid="100" />
-      <participant name="Gralliazs" cid="31" tid="100" />
-      <participant name="TheRoyalLemon" cid="222" tid="100" />
-      <participant name="Krussek" cid="7" tid="100" />
-      <participant name="Huntedo" cid="37" tid="100" />
-      <participant name="Marzi" cid="3" tid="200" />
-      <participant name="L4G Mrozu I" cid="54" tid="200" />
-      <participant name="GregorMB1844" cid="117" tid="200" />
-      <participant name="TowarzyszSowieta" cid="29" tid="200" />
-      <participant name="TheProdigySON" cid="81" tid="200" />
-      <at>2019-05-19T18:30:48.082</at>
-    </match>
-    <match w="200">
-      <dur>PT16M29S</dur>
-      <participant name="Gandera" cid="145" tid="100" />
-      <participant name="Ziomkowatyy" cid="57" tid="100" />
-      <participant name="Voltimus" cid="30" tid="100" />
-      <participant name="Skooowron" cid="111" tid="100" />
-      <participant name="Mοre Wine" cid="110" tid="100" />
-      <participant name="Hakis03" cid="22" tid="200" />
-      <participant name="Crusl" cid="122" tid="200" />
-      <participant name="Marzi" cid="37" tid="200" />
-      <participant name="Boylover" cid="36" tid="200" />
-      <participant name="xGouDi" cid="131" tid="200" />
-      <at>2019-05-19T18:00:16.9</at>
-    </match>
-    <match w="200">
-      <dur>PT28M44S</dur>
-      <participant name="Marzi" cid="202" tid="100" />
-      <participant name="Boylover" cid="27" tid="100" />
-      <participant name="Xerande" cid="245" tid="100" />
-      <participant name="Lexzf" cid="555" tid="100" />
-      <participant name="Olaf Bot" cid="45" tid="100" />
-      <participant name="EolasDia" cid="107" tid="200" />
-      <participant name="Linuxer14" cid="81" tid="200" />
-      <participant name="MitChan Poggers" cid="35" tid="200" />
-      <participant name="aKix2s" cid="67" tid="200" />
-      <participant name="Barneysoad" cid="134" tid="200" />
-      <at>2019-05-19T17:27:32.853</at>
+      <dur>PT20M25S</dur>
+      <participant name="Marzi" cid="3" tid="100" />
+      <participant name="lIlllIIIllIIlllI" cid="517" tid="100" />
+      <participant name="Fatalityy2137" cid="77" tid="100" />
+      <participant name="HoΙΙow" cid="6" tid="100" />
+      <participant name="EloreK" cid="51" tid="100" />
+      <participant name="Eryczo" cid="120" tid="200" />
+      <participant name="XxxValDemarxxX" cid="92" tid="200" />
+      <participant name="xCubePL" cid="412" tid="200" />
+      <participant name="LuuDiiSzEw" cid="103" tid="200" />
+      <participant name="Tiger Style" cid="268" tid="200" />
+      <at>2019-05-28T17:19:33.63</at>
     </match>
     <match w="100">
-      <dur>PT25M3S</dur>
-      <participant name="Filos Igor" cid="53" tid="100" />
-      <participant name="SuddenSnip3r" cid="63" tid="100" />
-      <participant name="Draven Draven445" cid="119" tid="100" />
-      <participant name="IleMaster" cid="6" tid="100" />
-      <participant name="DuntyDunt" cid="121" tid="100" />
-      <participant name="Desolator" cid="32" tid="200" />
-      <participant name="ZeroMdfk" cid="145" tid="200" />
-      <participant name="Muki11" cid="69" tid="200" />
-      <participant name="zohnia" cid="150" tid="200" />
-      <participant name="Marzi" cid="3" tid="200" />
-      <at>2019-05-18T19:17:04.401</at>
-    </match>
-    <match w="200">
-      <dur>PT27M9S</dur>
-      <participant name="Grizzlye" cid="16" tid="100" />
-      <participant name="XLiaO" cid="25" tid="100" />
-      <participant name="Rivennner" cid="202" tid="100" />
-      <participant name="memiarz " cid="268" tid="100" />
-      <participant name="Jienma" cid="5" tid="100" />
-      <participant name="γαsυο" cid="254" tid="200" />
+      <dur>PT24M16S</dur>
+      <participant name="MightyXerath" cid="26" tid="100" />
+      <participant name="Binacnak" cid="38" tid="100" />
+      <participant name="Swoksaar" cid="36" tid="100" />
+      <participant name="SneakySpy" cid="120" tid="100" />
+      <participant name="Morfrag" cid="119" tid="100" />
+      <participant name="NekaltasAvinelis" cid="202" tid="200" />
+      <participant name="hi im klacek" cid="31" tid="200" />
+      <participant name="Earl Ingstaad" cid="64" tid="200" />
+      <participant name="Vongo" cid="99" tid="200" />
       <participant name="Marzi" cid="117" tid="200" />
-      <participant name="Kipeerr" cid="103" tid="200" />
-      <participant name="JuanPabloSecundo" cid="222" tid="200" />
-      <participant name="manowarrior1" cid="266" tid="200" />
-      <at>2019-05-18T17:08:58.683</at>
+      <at>2019-05-26T19:40:54.886</at>
     </match>
     <match w="200">
-      <dur>PT24M31S</dur>
-      <participant name="LèFox" cid="203" tid="100" />
-      <participant name="asdf696" cid="115" tid="100" />
-      <participant name="ShyPeeta" cid="106" tid="100" />
-      <participant name="Nirmax" cid="27" tid="100" />
-      <participant name="Zuhal" cid="30" tid="100" />
-      <participant name="Lakon95" cid="245" tid="200" />
-      <participant name="Hoshhi Bot" cid="131" tid="200" />
-      <participant name="Srnc" cid="35" tid="200" />
-      <participant name="Marzi" cid="111" tid="200" />
-      <participant name="Sir Roxas" cid="517" tid="200" />
-      <at>2019-05-15T22:09:38.071</at>
-    </match>
-    <match w="100">
-      <dur>PT26M12S</dur>
-      <participant name="Hoshhi Bot" cid="53" tid="100" />
-      <participant name="Toxycek" cid="90" tid="100" />
-      <participant name="Srnc" cid="36" tid="100" />
-      <participant name="Marzi" cid="40" tid="100" />
-      <participant name="HitFail" cid="236" tid="100" />
-      <participant name="Serenader" cid="8" tid="200" />
-      <participant name="Kishimitsu" cid="142" tid="200" />
-      <participant name="samt1" cid="421" tid="200" />
-      <participant name="szpadi crew" cid="145" tid="200" />
-      <participant name="MyNameMyShame" cid="81" tid="200" />
-      <at>2019-05-15T21:38:30.792</at>
-    </match>
-    <match w="100">
-      <dur>PT16M34S</dur>
-      <participant name="NutiCommander" cid="2" tid="100" />
-      <participant name="POGBACzv" cid="58" tid="100" />
-      <participant name="JareGej" cid="103" tid="100" />
-      <participant name="Big Brąin Daddy" cid="266" tid="200" />
-      <participant name="Marzi" cid="350" tid="200" />
-      <participant name="Boylover" cid="29" tid="200" />
-      <at>2019-05-15T19:53:16.342</at>
+      <dur>PT24M9S</dur>
+      <participant name="StormRide" cid="86" tid="100" />
+      <participant name="Gibbster" cid="55" tid="100" />
+      <participant name="1Zodiac1" cid="59" tid="100" />
+      <participant name="Bonus ADC" cid="236" tid="100" />
+      <participant name="Marzi" cid="3" tid="100" />
+      <participant name="EdY2603" cid="107" tid="200" />
+      <participant name="GEN Think Twice " cid="39" tid="200" />
+      <participant name="3rtert" cid="25" tid="200" />
+      <participant name="ArmandpVfTf" cid="119" tid="200" />
+      <participant name="Kumissz" cid="266" tid="200" />
+      <at>2019-05-26T19:09:50.428</at>
     </match>
     <match w="200">
-      <dur>PT3M16S</dur>
-      <participant name="Aishizu" cid="117" tid="100" />
-      <participant name="RC Cóla" cid="498" tid="100" />
-      <participant name="cyn1cal" cid="10" tid="100" />
-      <participant name="ventrilokvista" cid="64" tid="100" />
-      <participant name="MikiTheGamerPRO" cid="38" tid="100" />
-      <participant name="Miki851" cid="105" tid="200" />
-      <participant name="ΟωΟ" cid="350" tid="200" />
-      <participant name="Nirak" cid="58" tid="200" />
-      <participant name="Marzi" cid="427" tid="200" />
-      <participant name="Boylover" cid="81" tid="200" />
-      <at>2019-05-15T19:19:01.5</at>
+      <dur>PT25M40S</dur>
+      <participant name="Reinhard" cid="41" tid="100" />
+      <participant name="NamePlayer" cid="136" tid="100" />
+      <participant name="Iron Mike " cid="111" tid="100" />
+      <participant name="Steel Banging" cid="420" tid="100" />
+      <participant name="hasel21" cid="34" tid="100" />
+      <participant name="Marzi" cid="59" tid="200" />
+      <participant name="FirstWarLegend" cid="9" tid="200" />
+      <participant name="ThinkFastActFast" cid="35" tid="200" />
+      <participant name="EB SuperNova" cid="62" tid="200" />
+      <participant name="xKuuB" cid="67" tid="200" />
+      <at>2019-05-26T14:24:51.058</at>
+    </match>
+    <match w="200">
+      <dur>PT25M25S</dur>
+      <participant name="BarbarU" cid="84" tid="100" />
+      <participant name="Slayer Mia" cid="222" tid="100" />
+      <participant name="ICY98" cid="254" tid="100" />
+      <participant name="Twistedd Mind" cid="2" tid="100" />
+      <participant name="Scatty Cigarette" cid="89" tid="100" />
+      <participant name="Marzi" cid="3" tid="200" />
+      <participant name="Boylover" cid="498" tid="200" />
+      <participant name="Mespada" cid="30" tid="200" />
+      <participant name="MakaMaka123" cid="238" tid="200" />
+      <participant name="CryMeªRiven" cid="92" tid="200" />
+      <at>2019-05-24T20:13:39.021</at>
     </match>
     <match w="100">
-      <dur>PT26M28S</dur>
-      <participant name="DaveShadow" cid="79" tid="100" />
-      <participant name="Thommy " cid="64" tid="100" />
-      <participant name="Maik" cid="107" tid="100" />
-      <participant name="Marzi" cid="412" tid="100" />
+      <dur>PT28M12S</dur>
+      <participant name="Chlupaté prase" cid="11" tid="100" />
+      <participant name="TomsonLP" cid="78" tid="100" />
+      <participant name="Unlucky Szympek" cid="99" tid="100" />
+      <participant name="2Niszczyciel2" cid="517" tid="100" />
+      <participant name="misi650" cid="51" tid="100" />
+      <participant name="random loser" cid="120" tid="200" />
+      <participant name="Rexox1212" cid="111" tid="200" />
+      <participant name="glosnik134" cid="6" tid="200" />
+      <participant name="Marzi" cid="53" tid="200" />
+      <participant name="Boylover" cid="67" tid="200" />
+      <at>2019-05-24T19:39:58.639</at>
+    </match>
+    <match w="100">
+      <dur>PT34M3S</dur>
+      <participant name="Last dana" cid="82" tid="100" />
+      <participant name="hi im Ata" cid="238" tid="100" />
+      <participant name="Thomas Shêlby" cid="64" tid="100" />
+      <participant name="Marzi" cid="201" tid="100" />
       <participant name="Boylover" cid="67" tid="100" />
-      <participant name="Yume" cid="236" tid="200" />
-      <participant name="Mαster" cid="350" tid="200" />
-      <participant name="BarwałD" cid="420" tid="200" />
-      <participant name="Àpple" cid="134" tid="200" />
-      <participant name="deathz0r" cid="121" tid="200" />
-      <at>2019-05-15T18:43:31.101</at>
+      <participant name="Naked Monkey PV" cid="127" tid="200" />
+      <participant name="Leader of BETAS" cid="19" tid="200" />
+      <participant name="imam si gadje" cid="11" tid="200" />
+      <participant name="Pooper brushi" cid="236" tid="200" />
+      <participant name="pherynneth" cid="350" tid="200" />
+      <at>2019-05-24T18:55:34.307</at>
     </match>
+    <match w="200">
+      <dur>PT24M30S</dur>
+      <participant name="TrapperNVM" cid="54" tid="100" />
+      <participant name="Pebek" cid="127" tid="100" />
+      <participant name="Marzi" cid="350" tid="100" />
+      <participant name="Boylover" cid="67" tid="100" />
+      <participant name="XoXaan" cid="76" tid="100" />
+      <participant name="Smiter" cid="92" tid="200" />
+      <participant name="deew" cid="55" tid="200" />
+      <participant name="HeloRd18" cid="254" tid="200" />
+      <participant name="Pentium2" cid="412" tid="200" />
+      <participant name="belcik" cid="145" tid="200" />
+      <at>2019-05-24T18:26:21.766</at>
+    </match>
+    <match w="100">
+      <dur>PT43M4S</dur>
+      <participant name="Archer from 3EH" cid="75" tid="100" />
+      <participant name="Striker17" cid="62" tid="100" />
+      <participant name="RozalisQ" cid="10" tid="100" />
+      <participant name="Executor IV" cid="16" tid="200" />
+      <participant name="Marzi" cid="28" tid="200" />
+      <participant name="Boylover" cid="110" tid="200" />
+      <at>2019-05-24T17:28:20.942</at>
+    </match>
+    <match w="200">
+      <dur>PT20M58S</dur>
+      <participant name="Marzi" cid="13" tid="100" />
+      <participant name="Boylover" cid="4" tid="100" />
+      <participant name="Ca4drav3" cid="498" tid="100" />
+      <participant name="Chief Mati" cid="9" tid="200" />
+      <participant name="Al Sakone" cid="517" tid="200" />
+      <participant name="Gaishais" cid="516" tid="200" />
+      <at>2019-05-24T17:01:35.134</at>
+    </match>
+    <wr>3</wr>
   </summoner>
-  <summoner id="9kia0t7gcZEUZOd2Es_2LStQ8vAoXv1t3P7KjerBC8fH5kA" aid="S6O4363-Da03VSUdjeiMMdTktrXM2z1I8WbuYQ-9CLsw4ak">
-    <name>Boylover</name>
-    <level>80</level>
-    <match w="100">
-      <dur>PT27M53S</dur>
-      <participant name="ΧρυσόςΒασιλιάς" cid="37" tid="100" />
-      <participant name="Trenbolonee" cid="59" tid="100" />
-      <participant name="Butli Pan " cid="222" tid="100" />
-      <participant name="Airon shield" cid="517" tid="100" />
-      <participant name="Lucä" cid="92" tid="100" />
-      <participant name="checkcheckone" cid="141" tid="200" />
-      <participant name="łMVP JIMł" cid="157" tid="200" />
-      <participant name="Μήτσοs" cid="8" tid="200" />
-      <participant name="Boylover" cid="22" tid="200" />
-      <participant name="Emmery" cid="117" tid="200" />
-      <at>2019-05-24T07:20:02.26</at>
-    </match>
-    <match w="100">
-      <dur>PT43M28S</dur>
-      <participant name="11darg11" cid="134" tid="100" />
-      <participant name="3GGer" cid="17" tid="100" />
-      <participant name="TALIRAKI" cid="497" tid="100" />
-      <participant name="Hi im NêverLucky" cid="64" tid="100" />
-      <participant name="Boylover" cid="498" tid="100" />
-      <participant name="Fey Quill" cid="25" tid="200" />
-      <participant name="wohefakerwuwukai" cid="81" tid="200" />
-      <participant name="Cigla u Vugla" cid="14" tid="200" />
-      <participant name="Pazi se Ugla" cid="86" tid="200" />
-      <participant name="L9 Sai " cid="13" tid="200" />
-      <at>2019-05-19T20:11:08.307</at>
-    </match>
-    <match w="100">
-      <dur>PT25M51S</dur>
-      <participant name="NieMaLEKKO" cid="245" tid="100" />
-      <participant name="Gnarrkill" cid="59" tid="100" />
-      <participant name="SidoSalus" cid="81" tid="100" />
-      <participant name="Workboldover" cid="54" tid="100" />
-      <participant name="Boylover" cid="412" tid="100" />
-      <participant name="nèrf my dìck" cid="18" tid="200" />
-      <participant name="Crashik" cid="126" tid="200" />
-      <participant name="Jérmαίn here" cid="24" tid="200" />
-      <participant name="czszkojad" cid="69" tid="200" />
-      <participant name="Alsoor SUPP" cid="25" tid="200" />
-      <at>2019-05-19T19:35:56.833</at>
-    </match>
-    <match w="200">
-      <dur>PT16M29S</dur>
-      <participant name="Gandera" cid="145" tid="100" />
-      <participant name="Ziomkowatyy" cid="57" tid="100" />
-      <participant name="Voltimus" cid="30" tid="100" />
-      <participant name="Skooowron" cid="111" tid="100" />
-      <participant name="Mοre Wine" cid="110" tid="100" />
-      <participant name="Hakis03" cid="22" tid="200" />
-      <participant name="Crusl" cid="122" tid="200" />
-      <participant name="Marzi" cid="37" tid="200" />
-      <participant name="Boylover" cid="36" tid="200" />
-      <participant name="xGouDi" cid="131" tid="200" />
-      <at>2019-05-19T18:00:16.9</at>
-    </match>
-    <match w="200">
-      <dur>PT28M44S</dur>
-      <participant name="Marzi" cid="202" tid="100" />
-      <participant name="Boylover" cid="27" tid="100" />
-      <participant name="Xerande" cid="245" tid="100" />
-      <participant name="Lexzf" cid="555" tid="100" />
-      <participant name="Olaf Bot" cid="45" tid="100" />
-      <participant name="EolasDia" cid="107" tid="200" />
-      <participant name="Linuxer14" cid="81" tid="200" />
-      <participant name="MitChan Poggers" cid="35" tid="200" />
-      <participant name="aKix2s" cid="67" tid="200" />
-      <participant name="Barneysoad" cid="134" tid="200" />
-      <at>2019-05-19T17:27:32.853</at>
-    </match>
-    <match w="100">
-      <dur>PT16M34S</dur>
-      <participant name="NutiCommander" cid="2" tid="100" />
-      <participant name="POGBACzv" cid="58" tid="100" />
-      <participant name="JareGej" cid="103" tid="100" />
-      <participant name="Big Brąin Daddy" cid="266" tid="200" />
-      <participant name="Marzi" cid="350" tid="200" />
-      <participant name="Boylover" cid="29" tid="200" />
-      <at>2019-05-15T19:53:16.342</at>
-    </match>
-    <match w="200">
-      <dur>PT3M16S</dur>
-      <participant name="Aishizu" cid="117" tid="100" />
-      <participant name="RC Cóla" cid="498" tid="100" />
-      <participant name="cyn1cal" cid="10" tid="100" />
-      <participant name="ventrilokvista" cid="64" tid="100" />
-      <participant name="MikiTheGamerPRO" cid="38" tid="100" />
-      <participant name="Miki851" cid="105" tid="200" />
-      <participant name="ΟωΟ" cid="350" tid="200" />
-      <participant name="Nirak" cid="58" tid="200" />
-      <participant name="Marzi" cid="427" tid="200" />
-      <participant name="Boylover" cid="81" tid="200" />
-      <at>2019-05-15T19:19:01.5</at>
-    </match>
-    <match w="100">
-      <dur>PT26M28S</dur>
-      <participant name="DaveShadow" cid="79" tid="100" />
-      <participant name="Thommy " cid="64" tid="100" />
-      <participant name="Maik" cid="107" tid="100" />
-      <participant name="Marzi" cid="412" tid="100" />
-      <participant name="Boylover" cid="67" tid="100" />
-      <participant name="Yume" cid="236" tid="200" />
-      <participant name="Mαster" cid="350" tid="200" />
-      <participant name="BarwałD" cid="420" tid="200" />
-      <participant name="Àpple" cid="134" tid="200" />
-      <participant name="deathz0r" cid="121" tid="200" />
-      <at>2019-05-15T18:43:31.101</at>
-    </match>
-    <match w="200">
-      <dur>PT25M26S</dur>
-      <participant name="GucuPucu" cid="2" tid="100" />
-      <participant name="Pałsztajn69" cid="161" tid="100" />
-      <participant name="z0x3r" cid="164" tid="100" />
-      <participant name="Marzi" cid="497" tid="100" />
-      <participant name="Boylover" cid="498" tid="100" />
-      <participant name="chudybyk145" cid="67" tid="200" />
-      <participant name="kubolus" cid="113" tid="200" />
-      <participant name="Powerfinn" cid="122" tid="200" />
-      <participant name="noo" cid="55" tid="200" />
-      <participant name="Prince Motorola" cid="267" tid="200" />
-      <at>2019-04-27T16:20:14.168</at>
-    </match>
-    <match w="200">
-      <dur>PT34M13S</dur>
-      <participant name="LuckyS5" cid="7" tid="100" />
-      <participant name="Weriker" cid="157" tid="100" />
-      <participant name="Element Kitsune" cid="21" tid="100" />
-      <participant name="Hylioqaz" cid="201" tid="100" />
-      <participant name="Brejdaczek" cid="59" tid="100" />
-      <participant name="migate" cid="29" tid="200" />
-      <participant name="KittenMitten" cid="25" tid="200" />
-      <participant name="Marzi" cid="89" tid="200" />
-      <participant name="Boylover" cid="81" tid="200" />
-      <participant name="Ognistykał" cid="10" tid="200" />
-      <at>2019-04-27T15:36:39.739</at>
-    </match>
+  <summoner id="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM" aid="wyi7pBsRQaJCLYkPP-TUETdBsWVIhmfOF5VXhUtap8_RKa4" sid="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM">
+    <name>Marzi</name>
+    <level>157</level>
+    <wr>0</wr>
+  </summoner>
+  <champions />
+</XmlDbContext>evel>157</level>
+    <wr>0</wr>
   </summoner>
   <champions />
 </XmlDbContext>
