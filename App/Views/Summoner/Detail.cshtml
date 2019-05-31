@@ -24,7 +24,7 @@
 
     int Loses()
     {
-        return 10 - Wins();
+        return Model.Matches.Count - Wins();
     }
 }
 
@@ -45,6 +45,7 @@ table, th, td {
             {
                 <td>
                     <div>@qt[r.QueueType]</div>
+                    <div>@($"{r.Tier} {r.Rank}")</div>
                     <div>@(WR(r.Winrate))% winrate</div>
                 </td>
             }

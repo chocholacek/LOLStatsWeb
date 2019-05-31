@@ -21,10 +21,11 @@ namespace App.Data.Entities
         [XmlAttribute("sid")]
         public string SummonerId { get; set; }
 
-        [XmlElement("rank")]
+        [XmlElement("league")]
         public List<LeagueDto> Ranks { get; set; } = new List<LeagueDto>();
 
-        [XmlElement("match")]
+        [XmlArray("matches")]
+        [XmlArrayItem("match")]
         public List<MatchDto> Matches { get; set; } = new List<MatchDto>();
 
         [XmlElement("wr")]
