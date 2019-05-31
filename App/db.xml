@@ -1,587 +1,163 @@
 <?xml version="1.0"?>
 <XmlDbContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <summoner id="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM" aid="wyi7pBsRQaJCLYkPP-TUETdBsWVIhmfOF5VXhUtap8_RKa4" sid="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM">
-    <name>Marzi</name>
-    <level>157</level>
-    <rank q="RANKED_SOLO_5x5" wr="0.54022988505747127">
-      <rank>IV</rank>
-      <tier>DIAMOND</tier>
-    </rank>
-    <rank q="RANKED_FLEX_SR" wr="0.47619047619047616">
-      <rank>III</rank>
-      <tier>GOLD</tier>
-    </rank>
-    <rank q="RANKED_FLEX_TT" wr="0.55555555555555558">
-      <rank>III</rank>
-      <tier>SILVER</tier>
-    </rank>
-    <match w="200">
-      <dur>PT20M25S</dur>
-      <participant name="Marzi" cid="3" tid="100" />
-      <participant name="lIlllIIIllIIlllI" cid="517" tid="100" />
-      <participant name="Fatalityy2137" cid="77" tid="100" />
-      <participant name="HoΙΙow" cid="6" tid="100" />
-      <participant name="EloreK" cid="51" tid="100" />
-      <participant name="Eryczo" cid="120" tid="200" />
-      <participant name="XxxValDemarxxX" cid="92" tid="200" />
-      <participant name="xCubePL" cid="412" tid="200" />
-      <participant name="LuuDiiSzEw" cid="103" tid="200" />
-      <participant name="Tiger Style" cid="268" tid="200" />
-      <at>2019-05-28T17:19:33.63</at>
-    </match>
-    <match w="100">
-      <dur>PT24M16S</dur>
-      <participant name="MightyXerath" cid="26" tid="100" />
-      <participant name="Binacnak" cid="38" tid="100" />
-      <participant name="Swoksaar" cid="36" tid="100" />
-      <participant name="SneakySpy" cid="120" tid="100" />
-      <participant name="Morfrag" cid="119" tid="100" />
-      <participant name="NekaltasAvinelis" cid="202" tid="200" />
-      <participant name="hi im klacek" cid="31" tid="200" />
-      <participant name="Earl Ingstaad" cid="64" tid="200" />
-      <participant name="Vongo" cid="99" tid="200" />
-      <participant name="Marzi" cid="117" tid="200" />
-      <at>2019-05-26T19:40:54.886</at>
-    </match>
-    <match w="200">
-      <dur>PT24M9S</dur>
-      <participant name="StormRide" cid="86" tid="100" />
-      <participant name="Gibbster" cid="55" tid="100" />
-      <participant name="1Zodiac1" cid="59" tid="100" />
-      <participant name="Bonus ADC" cid="236" tid="100" />
-      <participant name="Marzi" cid="3" tid="100" />
-      <participant name="EdY2603" cid="107" tid="200" />
-      <participant name="GEN Think Twice " cid="39" tid="200" />
-      <participant name="3rtert" cid="25" tid="200" />
-      <participant name="ArmandpVfTf" cid="119" tid="200" />
-      <participant name="Kumissz" cid="266" tid="200" />
-      <at>2019-05-26T19:09:50.428</at>
-    </match>
-    <match w="200">
-      <dur>PT25M40S</dur>
-      <participant name="Reinhard" cid="41" tid="100" />
-      <participant name="NamePlayer" cid="136" tid="100" />
-      <participant name="Iron Mike " cid="111" tid="100" />
-      <participant name="Steel Banging" cid="420" tid="100" />
-      <participant name="hasel21" cid="34" tid="100" />
-      <participant name="Marzi" cid="59" tid="200" />
-      <participant name="FirstWarLegend" cid="9" tid="200" />
-      <participant name="ThinkFastActFast" cid="35" tid="200" />
-      <participant name="EB SuperNova" cid="62" tid="200" />
-      <participant name="xKuuB" cid="67" tid="200" />
-      <at>2019-05-26T14:24:51.058</at>
-    </match>
-    <match w="200">
-      <dur>PT25M25S</dur>
-      <participant name="BarbarU" cid="84" tid="100" />
-      <participant name="Slayer Mia" cid="222" tid="100" />
-      <participant name="ICY98" cid="254" tid="100" />
-      <participant name="Twistedd Mind" cid="2" tid="100" />
-      <participant name="Scatty Cigarette" cid="89" tid="100" />
-      <participant name="Marzi" cid="3" tid="200" />
-      <participant name="Boylover" cid="498" tid="200" />
-      <participant name="Mespada" cid="30" tid="200" />
-      <participant name="MakaMaka123" cid="238" tid="200" />
-      <participant name="CryMeªRiven" cid="92" tid="200" />
-      <at>2019-05-24T20:13:39.021</at>
-    </match>
-    <match w="100">
-      <dur>PT28M12S</dur>
-      <participant name="Chlupaté prase" cid="11" tid="100" />
-      <participant name="TomsonLP" cid="78" tid="100" />
-      <participant name="Unlucky Szympek" cid="99" tid="100" />
-      <participant name="2Niszczyciel2" cid="517" tid="100" />
-      <participant name="misi650" cid="51" tid="100" />
-      <participant name="random loser" cid="120" tid="200" />
-      <participant name="Rexox1212" cid="111" tid="200" />
-      <participant name="glosnik134" cid="6" tid="200" />
-      <participant name="Marzi" cid="53" tid="200" />
-      <participant name="Boylover" cid="67" tid="200" />
-      <at>2019-05-24T19:39:58.639</at>
-    </match>
-    <match w="100">
-      <dur>PT34M3S</dur>
-      <participant name="Last dana" cid="82" tid="100" />
-      <participant name="hi im Ata" cid="238" tid="100" />
-      <participant name="Thomas Shêlby" cid="64" tid="100" />
-      <participant name="Marzi" cid="201" tid="100" />
-      <participant name="Boylover" cid="67" tid="100" />
-      <participant name="Naked Monkey PV" cid="127" tid="200" />
-      <participant name="Leader of BETAS" cid="19" tid="200" />
-      <participant name="imam si gadje" cid="11" tid="200" />
-      <participant name="Pooper brushi" cid="236" tid="200" />
-      <participant name="pherynneth" cid="350" tid="200" />
-      <at>2019-05-24T18:55:34.307</at>
-    </match>
-    <match w="200">
-      <dur>PT24M30S</dur>
-      <participant name="TrapperNVM" cid="54" tid="100" />
-      <participant name="Pebek" cid="127" tid="100" />
-      <participant name="Marzi" cid="350" tid="100" />
-      <participant name="Boylover" cid="67" tid="100" />
-      <participant name="XoXaan" cid="76" tid="100" />
-      <participant name="Smiter" cid="92" tid="200" />
-      <participant name="deew" cid="55" tid="200" />
-      <participant name="HeloRd18" cid="254" tid="200" />
-      <participant name="Pentium2" cid="412" tid="200" />
-      <participant name="belcik" cid="145" tid="200" />
-      <at>2019-05-24T18:26:21.766</at>
-    </match>
-    <match w="100">
-      <dur>PT43M4S</dur>
-      <participant name="Archer from 3EH" cid="75" tid="100" />
-      <participant name="Striker17" cid="62" tid="100" />
-      <participant name="RozalisQ" cid="10" tid="100" />
-      <participant name="Executor IV" cid="16" tid="200" />
-      <participant name="Marzi" cid="28" tid="200" />
-      <participant name="Boylover" cid="110" tid="200" />
-      <at>2019-05-24T17:28:20.942</at>
-    </match>
-    <match w="200">
-      <dur>PT20M58S</dur>
-      <participant name="Marzi" cid="13" tid="100" />
-      <participant name="Boylover" cid="4" tid="100" />
-      <participant name="Ca4drav3" cid="498" tid="100" />
-      <participant name="Chief Mati" cid="9" tid="200" />
-      <participant name="Al Sakone" cid="517" tid="200" />
-      <participant name="Gaishais" cid="516" tid="200" />
-      <at>2019-05-24T17:01:35.134</at>
-    </match>
-    <wr>3</wr>
-  </summoner>
+  <summoners>
+    <summoner id="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM" aid="wyi7pBsRQaJCLYkPP-TUETdBsWVIhmfOF5VXhUtap8_RKa4" sid="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM">
+      <name>Marzi</name>
+      <level>157</level>
+      <league q="RANKED_SOLO_5x5" wr="0.54022988505747127">
+        <tier>DIAMOND</tier>
+        <rank>IV</rank>
+      </league>
+      <league q="RANKED_FLEX_SR" wr="0.47619047619047616">
+        <tier>GOLD</tier>
+        <rank>III</rank>
+      </league>
+      <league q="RANKED_FLEX_TT" wr="0.55555555555555558">
+        <tier>SILVER</tier>
+        <rank>III</rank>
+      </league>
+      <matches>
+        <match w="200">
+          <dur>PT20M25S</dur>
+          <participant name="Marzi" cid="3" tid="100" />
+          <participant name="lIlllIIIllIIlllI" cid="517" tid="100" />
+          <participant name="Fatalityy2137" cid="77" tid="100" />
+          <participant name="HoΙΙow" cid="6" tid="100" />
+          <participant name="EloreK" cid="51" tid="100" />
+          <participant name="Eryczo" cid="120" tid="200" />
+          <participant name="XxxValDemarxxX" cid="92" tid="200" />
+          <participant name="xCubePL" cid="412" tid="200" />
+          <participant name="LuuDiiSzEw" cid="103" tid="200" />
+          <participant name="Tiger Style" cid="268" tid="200" />
+          <at>2019-05-28T17:19:33.63</at>
+        </match>
+        <match w="100">
+          <dur>PT24M16S</dur>
+          <participant name="MightyXerath" cid="26" tid="100" />
+          <participant name="Binacnak" cid="38" tid="100" />
+          <participant name="Swoksaar" cid="36" tid="100" />
+          <participant name="SneakySpy" cid="120" tid="100" />
+          <participant name="Morfrag" cid="119" tid="100" />
+          <participant name="NekaltasAvinelis" cid="202" tid="200" />
+          <participant name="hi im klacek" cid="31" tid="200" />
+          <participant name="Earl Ingstaad" cid="64" tid="200" />
+          <participant name="Vongo" cid="99" tid="200" />
+          <participant name="Marzi" cid="117" tid="200" />
+          <at>2019-05-26T19:40:54.886</at>
+        </match>
+        <match w="200">
+          <dur>PT24M9S</dur>
+          <participant name="StormRide" cid="86" tid="100" />
+          <participant name="Gibbster" cid="55" tid="100" />
+          <participant name="1Zodiac1" cid="59" tid="100" />
+          <participant name="Bonus ADC" cid="236" tid="100" />
+          <participant name="Marzi" cid="3" tid="100" />
+          <participant name="EdY2603" cid="107" tid="200" />
+          <participant name="GEN Think Twice " cid="39" tid="200" />
+          <participant name="3rtert" cid="25" tid="200" />
+          <participant name="ArmandpVfTf" cid="119" tid="200" />
+          <participant name="Kumissz" cid="266" tid="200" />
+          <at>2019-05-26T19:09:50.428</at>
+        </match>
+        <match w="200">
+          <dur>PT25M40S</dur>
+          <participant name="Reinhard" cid="41" tid="100" />
+          <participant name="NamePlayer" cid="136" tid="100" />
+          <participant name="Iron Mike " cid="111" tid="100" />
+          <participant name="Steel Banging" cid="420" tid="100" />
+          <participant name="hasel21" cid="34" tid="100" />
+          <participant name="Marzi" cid="59" tid="200" />
+          <participant name="FirstWarLegend" cid="9" tid="200" />
+          <participant name="ThinkFastActFast" cid="35" tid="200" />
+          <participant name="EB SuperNova" cid="62" tid="200" />
+          <participant name="xKuuB" cid="67" tid="200" />
+          <at>2019-05-26T14:24:51.058</at>
+        </match>
+        <match w="200">
+          <dur>PT25M25S</dur>
+          <participant name="BarbarU" cid="84" tid="100" />
+          <participant name="Slayer Mia" cid="222" tid="100" />
+          <participant name="ICY98" cid="254" tid="100" />
+          <participant name="Twistedd Mind" cid="2" tid="100" />
+          <participant name="Scatty Cigarette" cid="89" tid="100" />
+          <participant name="Marzi" cid="3" tid="200" />
+          <participant name="Boylover" cid="498" tid="200" />
+          <participant name="Mespada" cid="30" tid="200" />
+          <participant name="MakaMaka123" cid="238" tid="200" />
+          <participant name="CryMeªRiven" cid="92" tid="200" />
+          <at>2019-05-24T20:13:39.021</at>
+        </match>
+        <match w="100">
+          <dur>PT28M12S</dur>
+          <participant name="Chlupaté prase" cid="11" tid="100" />
+          <participant name="TomsonLP" cid="78" tid="100" />
+          <participant name="Unlucky Szympek" cid="99" tid="100" />
+          <participant name="2Niszczyciel2" cid="517" tid="100" />
+          <participant name="misi650" cid="51" tid="100" />
+          <participant name="random loser" cid="120" tid="200" />
+          <participant name="Rexox1212" cid="111" tid="200" />
+          <participant name="glosnik134" cid="6" tid="200" />
+          <participant name="Marzi" cid="53" tid="200" />
+          <participant name="Boylover" cid="67" tid="200" />
+          <at>2019-05-24T19:39:58.639</at>
+        </match>
+        <match w="100">
+          <dur>PT34M3S</dur>
+          <participant name="Last dana" cid="82" tid="100" />
+          <participant name="hi im Ata" cid="238" tid="100" />
+          <participant name="Thomas Shêlby" cid="64" tid="100" />
+          <participant name="Marzi" cid="201" tid="100" />
+          <participant name="Boylover" cid="67" tid="100" />
+          <participant name="Naked Monkey PV" cid="127" tid="200" />
+          <participant name="Leader of BETAS" cid="19" tid="200" />
+          <participant name="imam si gadje" cid="11" tid="200" />
+          <participant name="Pooper brushi" cid="236" tid="200" />
+          <participant name="pherynneth" cid="350" tid="200" />
+          <at>2019-05-24T18:55:34.307</at>
+        </match>
+        <match w="200">
+          <dur>PT24M30S</dur>
+          <participant name="TrapperNVM" cid="54" tid="100" />
+          <participant name="Pebek" cid="127" tid="100" />
+          <participant name="Marzi" cid="350" tid="100" />
+          <participant name="Boylover" cid="67" tid="100" />
+          <participant name="XoXaan" cid="76" tid="100" />
+          <participant name="Smiter" cid="92" tid="200" />
+          <participant name="deew" cid="55" tid="200" />
+          <participant name="HeloRd18" cid="254" tid="200" />
+          <participant name="Pentium2" cid="412" tid="200" />
+          <participant name="belcik" cid="145" tid="200" />
+          <at>2019-05-24T18:26:21.766</at>
+        </match>
+        <match w="100">
+          <dur>PT43M4S</dur>
+          <participant name="Archer from 3EH" cid="75" tid="100" />
+          <participant name="Striker17" cid="62" tid="100" />
+          <participant name="RozalisQ" cid="10" tid="100" />
+          <participant name="Executor IV" cid="16" tid="200" />
+          <participant name="Marzi" cid="28" tid="200" />
+          <participant name="Boylover" cid="110" tid="200" />
+          <at>2019-05-24T17:28:20.942</at>
+        </match>
+        <match w="200">
+          <dur>PT20M58S</dur>
+          <participant name="Marzi" cid="13" tid="100" />
+          <participant name="Boylover" cid="4" tid="100" />
+          <participant name="Ca4drav3" cid="498" tid="100" />
+          <participant name="Chief Mati" cid="9" tid="200" />
+          <participant name="Al Sakone" cid="517" tid="200" />
+          <participant name="Gaishais" cid="516" tid="200" />
+          <at>2019-05-24T17:01:35.134</at>
+        </match>
+      </matches>
+      <wr>3</wr>
+    </summoner>
+    <summoner id="kiw4exf2LoJMcEmzsjxj5EVebgcQhS1z1lQMfdO5mFO6lLc" aid="YOwhlMYtWX_gY62NuNwwKcB3jYkmiRRUfHfFL97fulwdZNyNZ4HLwiZQ" sid="kiw4exf2LoJMcEmzsjxj5EVebgcQhS1z1lQMfdO5mFO6lLc">
+      <name>lIlllIIIllIIlllI</name>
+      <level>39</level>
+      <matches />
+      <wr>0</wr>
+    </summoner>
+  </summoners>
   <champions />
-</XmlDbContext>champions>
-    <ChampionDto id="266" k="Aatrox" name="Aatrox">
-      <img>Aatrox.png</img>
-    </ChampionDto>
-    <ChampionDto id="103" k="Ahri" name="Ahri">
-      <img>Ahri.png</img>
-    </ChampionDto>
-    <ChampionDto id="84" k="Akali" name="Akali">
-      <img>Akali.png</img>
-    </ChampionDto>
-    <ChampionDto id="12" k="Alistar" name="Alistar">
-      <img>Alistar.png</img>
-    </ChampionDto>
-    <ChampionDto id="32" k="Amumu" name="Amumu">
-      <img>Amumu.png</img>
-    </ChampionDto>
-    <ChampionDto id="34" k="Anivia" name="Anivia">
-      <img>Anivia.png</img>
-    </ChampionDto>
-    <ChampionDto id="1" k="Annie" name="Annie">
-      <img>Annie.png</img>
-    </ChampionDto>
-    <ChampionDto id="22" k="Ashe" name="Ashe">
-      <img>Ashe.png</img>
-    </ChampionDto>
-    <ChampionDto id="136" k="AurelionSol" name="Aurelion Sol">
-      <img>AurelionSol.png</img>
-    </ChampionDto>
-    <ChampionDto id="268" k="Azir" name="Azir">
-      <img>Azir.png</img>
-    </ChampionDto>
-    <ChampionDto id="432" k="Bard" name="Bard">
-      <img>Bard.png</img>
-    </ChampionDto>
-    <ChampionDto id="53" k="Blitzcrank" name="Blitzcrank">
-      <img>Blitzcrank.png</img>
-    </ChampionDto>
-    <ChampionDto id="63" k="Brand" name="Brand">
-      <img>Brand.png</img>
-    </ChampionDto>
-    <ChampionDto id="201" k="Braum" name="Braum">
-      <img>Braum.png</img>
-    </ChampionDto>
-    <ChampionDto id="51" k="Caitlyn" name="Caitlyn">
-      <img>Caitlyn.png</img>
-    </ChampionDto>
-    <ChampionDto id="164" k="Camille" name="Camille">
-      <img>Camille.png</img>
-    </ChampionDto>
-    <ChampionDto id="69" k="Cassiopeia" name="Cassiopeia">
-      <img>Cassiopeia.png</img>
-    </ChampionDto>
-    <ChampionDto id="31" k="Chogath" name="Cho'Gath">
-      <img>Chogath.png</img>
-    </ChampionDto>
-    <ChampionDto id="42" k="Corki" name="Corki">
-      <img>Corki.png</img>
-    </ChampionDto>
-    <ChampionDto id="122" k="Darius" name="Darius">
-      <img>Darius.png</img>
-    </ChampionDto>
-    <ChampionDto id="131" k="Diana" name="Diana">
-      <img>Diana.png</img>
-    </ChampionDto>
-    <ChampionDto id="119" k="Draven" name="Draven">
-      <img>Draven.png</img>
-    </ChampionDto>
-    <ChampionDto id="36" k="DrMundo" name="Dr. Mundo">
-      <img>DrMundo.png</img>
-    </ChampionDto>
-    <ChampionDto id="245" k="Ekko" name="Ekko">
-      <img>Ekko.png</img>
-    </ChampionDto>
-    <ChampionDto id="60" k="Elise" name="Elise">
-      <img>Elise.png</img>
-    </ChampionDto>
-    <ChampionDto id="28" k="Evelynn" name="Evelynn">
-      <img>Evelynn.png</img>
-    </ChampionDto>
-    <ChampionDto id="81" k="Ezreal" name="Ezreal">
-      <img>Ezreal.png</img>
-    </ChampionDto>
-    <ChampionDto id="9" k="Fiddlesticks" name="Fiddlesticks">
-      <img>Fiddlesticks.png</img>
-    </ChampionDto>
-    <ChampionDto id="114" k="Fiora" name="Fiora">
-      <img>Fiora.png</img>
-    </ChampionDto>
-    <ChampionDto id="105" k="Fizz" name="Fizz">
-      <img>Fizz.png</img>
-    </ChampionDto>
-    <ChampionDto id="3" k="Galio" name="Galio">
-      <img>Galio.png</img>
-    </ChampionDto>
-    <ChampionDto id="41" k="Gangplank" name="Gangplank">
-      <img>Gangplank.png</img>
-    </ChampionDto>
-    <ChampionDto id="86" k="Garen" name="Garen">
-      <img>Garen.png</img>
-    </ChampionDto>
-    <ChampionDto id="150" k="Gnar" name="Gnar">
-      <img>Gnar.png</img>
-    </ChampionDto>
-    <ChampionDto id="79" k="Gragas" name="Gragas">
-      <img>Gragas.png</img>
-    </ChampionDto>
-    <ChampionDto id="104" k="Graves" name="Graves">
-      <img>Graves.png</img>
-    </ChampionDto>
-    <ChampionDto id="120" k="Hecarim" name="Hecarim">
-      <img>Hecarim.png</img>
-    </ChampionDto>
-    <ChampionDto id="74" k="Heimerdinger" name="Heimerdinger">
-      <img>Heimerdinger.png</img>
-    </ChampionDto>
-    <ChampionDto id="420" k="Illaoi" name="Illaoi">
-      <img>Illaoi.png</img>
-    </ChampionDto>
-    <ChampionDto id="39" k="Irelia" name="Irelia">
-      <img>Irelia.png</img>
-    </ChampionDto>
-    <ChampionDto id="427" k="Ivern" name="Ivern">
-      <img>Ivern.png</img>
-    </ChampionDto>
-    <ChampionDto id="40" k="Janna" name="Janna">
-      <img>Janna.png</img>
-    </ChampionDto>
-    <ChampionDto id="59" k="JarvanIV" name="Jarvan IV">
-      <img>JarvanIV.png</img>
-    </ChampionDto>
-    <ChampionDto id="24" k="Jax" name="Jax">
-      <img>Jax.png</img>
-    </ChampionDto>
-    <ChampionDto id="126" k="Jayce" name="Jayce">
-      <img>Jayce.png</img>
-    </ChampionDto>
-    <ChampionDto id="202" k="Jhin" name="Jhin">
-      <img>Jhin.png</img>
-    </ChampionDto>
-    <ChampionDto id="222" k="Jinx" name="Jinx">
-      <img>Jinx.png</img>
-    </ChampionDto>
-    <ChampionDto id="145" k="Kaisa" name="Kai'Sa">
-      <img>Kaisa.png</img>
-    </ChampionDto>
-    <ChampionDto id="429" k="Kalista" name="Kalista">
-      <img>Kalista.png</img>
-    </ChampionDto>
-    <ChampionDto id="43" k="Karma" name="Karma">
-      <img>Karma.png</img>
-    </ChampionDto>
-    <ChampionDto id="30" k="Karthus" name="Karthus">
-      <img>Karthus.png</img>
-    </ChampionDto>
-    <ChampionDto id="38" k="Kassadin" name="Kassadin">
-      <img>Kassadin.png</img>
-    </ChampionDto>
-    <ChampionDto id="55" k="Katarina" name="Katarina">
-      <img>Katarina.png</img>
-    </ChampionDto>
-    <ChampionDto id="10" k="Kayle" name="Kayle">
-      <img>Kayle.png</img>
-    </ChampionDto>
-    <ChampionDto id="141" k="Kayn" name="Kayn">
-      <img>Kayn.png</img>
-    </ChampionDto>
-    <ChampionDto id="85" k="Kennen" name="Kennen">
-      <img>Kennen.png</img>
-    </ChampionDto>
-    <ChampionDto id="121" k="Khazix" name="Kha'Zix">
-      <img>Khazix.png</img>
-    </ChampionDto>
-    <ChampionDto id="203" k="Kindred" name="Kindred">
-      <img>Kindred.png</img>
-    </ChampionDto>
-    <ChampionDto id="240" k="Kled" name="Kled">
-      <img>Kled.png</img>
-    </ChampionDto>
-    <ChampionDto id="96" k="KogMaw" name="Kog'Maw">
-      <img>KogMaw.png</img>
-    </ChampionDto>
-    <ChampionDto id="7" k="Leblanc" name="LeBlanc">
-      <img>Leblanc.png</img>
-    </ChampionDto>
-    <ChampionDto id="64" k="LeeSin" name="Lee Sin">
-      <img>LeeSin.png</img>
-    </ChampionDto>
-    <ChampionDto id="89" k="Leona" name="Leona">
-      <img>Leona.png</img>
-    </ChampionDto>
-    <ChampionDto id="127" k="Lissandra" name="Lissandra">
-      <img>Lissandra.png</img>
-    </ChampionDto>
-    <ChampionDto id="236" k="Lucian" name="Lucian">
-      <img>Lucian.png</img>
-    </ChampionDto>
-    <ChampionDto id="117" k="Lulu" name="Lulu">
-      <img>Lulu.png</img>
-    </ChampionDto>
-    <ChampionDto id="99" k="Lux" name="Lux">
-      <img>Lux.png</img>
-    </ChampionDto>
-    <ChampionDto id="54" k="Malphite" name="Malphite">
-      <img>Malphite.png</img>
-    </ChampionDto>
-    <ChampionDto id="90" k="Malzahar" name="Malzahar">
-      <img>Malzahar.png</img>
-    </ChampionDto>
-    <ChampionDto id="57" k="Maokai" name="Maokai">
-      <img>Maokai.png</img>
-    </ChampionDto>
-    <ChampionDto id="11" k="MasterYi" name="Master Yi">
-      <img>MasterYi.png</img>
-    </ChampionDto>
-    <ChampionDto id="21" k="MissFortune" name="Miss Fortune">
-      <img>MissFortune.png</img>
-    </ChampionDto>
-    <ChampionDto id="62" k="MonkeyKing" name="Wukong">
-      <img>MonkeyKing.png</img>
-    </ChampionDto>
-    <ChampionDto id="82" k="Mordekaiser" name="Mordekaiser">
-      <img>Mordekaiser.png</img>
-    </ChampionDto>
-    <ChampionDto id="25" k="Morgana" name="Morgana">
-      <img>Morgana.png</img>
-    </ChampionDto>
-    <ChampionDto id="267" k="Nami" name="Nami">
-      <img>Nami.png</img>
-    </ChampionDto>
-    <ChampionDto id="75" k="Nasus" name="Nasus">
-      <img>Nasus.png</img>
-    </ChampionDto>
-    <ChampionDto id="111" k="Nautilus" name="Nautilus">
-      <img>Nautilus.png</img>
-    </ChampionDto>
-    <ChampionDto id="518" k="Neeko" name="Neeko">
-      <img>Neeko.png</img>
-    </ChampionDto>
-    <ChampionDto id="76" k="Nidalee" name="Nidalee">
-      <img>Nidalee.png</img>
-    </ChampionDto>
-    <ChampionDto id="56" k="Nocturne" name="Nocturne">
-      <img>Nocturne.png</img>
-    </ChampionDto>
-    <ChampionDto id="20" k="Nunu" name="Nunu &amp; Willump">
-      <img>Nunu.png</img>
-    </ChampionDto>
-    <ChampionDto id="2" k="Olaf" name="Olaf">
-      <img>Olaf.png</img>
-    </ChampionDto>
-    <ChampionDto id="61" k="Orianna" name="Orianna">
-      <img>Orianna.png</img>
-    </ChampionDto>
-    <ChampionDto id="516" k="Ornn" name="Ornn">
-      <img>Ornn.png</img>
-    </ChampionDto>
-    <ChampionDto id="80" k="Pantheon" name="Pantheon">
-      <img>Pantheon.png</img>
-    </ChampionDto>
-    <ChampionDto id="78" k="Poppy" name="Poppy">
-      <img>Poppy.png</img>
-    </ChampionDto>
-    <ChampionDto id="555" k="Pyke" name="Pyke">
-      <img>Pyke.png</img>
-    </ChampionDto>
-    <ChampionDto id="133" k="Quinn" name="Quinn">
-      <img>Quinn.png</img>
-    </ChampionDto>
-    <ChampionDto id="497" k="Rakan" name="Rakan">
-      <img>Rakan.png</img>
-    </ChampionDto>
-    <ChampionDto id="33" k="Rammus" name="Rammus">
-      <img>Rammus.png</img>
-    </ChampionDto>
-    <ChampionDto id="421" k="RekSai" name="Rek'Sai">
-      <img>RekSai.png</img>
-    </ChampionDto>
-    <ChampionDto id="58" k="Renekton" name="Renekton">
-      <img>Renekton.png</img>
-    </ChampionDto>
-    <ChampionDto id="107" k="Rengar" name="Rengar">
-      <img>Rengar.png</img>
-    </ChampionDto>
-    <ChampionDto id="92" k="Riven" name="Riven">
-      <img>Riven.png</img>
-    </ChampionDto>
-    <ChampionDto id="68" k="Rumble" name="Rumble">
-      <img>Rumble.png</img>
-    </ChampionDto>
-    <ChampionDto id="13" k="Ryze" name="Ryze">
-      <img>Ryze.png</img>
-    </ChampionDto>
-    <ChampionDto id="113" k="Sejuani" name="Sejuani">
-      <img>Sejuani.png</img>
-    </ChampionDto>
-    <ChampionDto id="35" k="Shaco" name="Shaco">
-      <img>Shaco.png</img>
-    </ChampionDto>
-    <ChampionDto id="98" k="Shen" name="Shen">
-      <img>Shen.png</img>
-    </ChampionDto>
-    <ChampionDto id="102" k="Shyvana" name="Shyvana">
-      <img>Shyvana.png</img>
-    </ChampionDto>
-    <ChampionDto id="27" k="Singed" name="Singed">
-      <img>Singed.png</img>
-    </ChampionDto>
-    <ChampionDto id="14" k="Sion" name="Sion">
-      <img>Sion.png</img>
-    </ChampionDto>
-    <ChampionDto id="15" k="Sivir" name="Sivir">
-      <img>Sivir.png</img>
-    </ChampionDto>
-    <ChampionDto id="72" k="Skarner" name="Skarner">
-      <img>Skarner.png</img>
-    </ChampionDto>
-    <ChampionDto id="37" k="Sona" name="Sona">
-      <img>Sona.png</img>
-    </ChampionDto>
-    <ChampionDto id="16" k="Soraka" name="Soraka">
-      <img>Soraka.png</img>
-    </ChampionDto>
-    <ChampionDto id="50" k="Swain" name="Swain">
-      <img>Swain.png</img>
-    </ChampionDto>
-    <ChampionDto id="517" k="Sylas" name="Sylas">
-      <img>Sylas.png</img>
-    </ChampionDto>
-    <ChampionDto id="134" k="Syndra" name="Syndra">
-      <img>Syndra.png</img>
-    </ChampionDto>
-    <ChampionDto id="223" k="TahmKench" name="Tahm Kench">
-      <img>TahmKench.png</img>
-    </ChampionDto>
-    <ChampionDto id="163" k="Taliyah" name="Taliyah">
-      <img>Taliyah.png</img>
-    </ChampionDto>
-    <ChampionDto id="91" k="Talon" name="Talon">
-      <img>Talon.png</img>
-    </ChampionDto>
-    <ChampionDto id="44" k="Taric" name="Taric">
-      <img>Taric.png</img>
-    </ChampionDto>
-    <ChampionDto id="17" k="Teemo" name="Teemo">
-      <img>Teemo.png</img>
-    </ChampionDto>
-    <ChampionDto id="412" k="Thresh" name="Thresh">
-      <img>Thresh.png</img>
-    </ChampionDto>
-    <ChampionDto id="18" k="Tristana" name="Tristana">
-      <img>Tristana.png</img>
-    </ChampionDto>
-    <ChampionDto id="48" k="Trundle" name="Trundle">
-      <img>Trundle.png</img>
-    </ChampionDto>
-    <ChampionDto id="23" k="Tryndamere" name="Tryndamere">
-      <img>Tryndamere.png</img>
-    </ChampionDto>
-    <ChampionDto id="4" k="TwistedFate" name="Twisted Fate">
-      <img>TwistedFate.png</img>
-    </ChampionDto>
-    <ChampionDto id="29" k="Twitch" name="Twitch">
-      <img>Twitch.png</img>
-    </ChampionDto>
-    <ChampionDto id="77" k="Udyr" name="Udyr">
-      <img>Udyr.png</img>
-    </ChampionDto>
-    <ChampionDto id="6" k="Urgot" name="Urgot">
-      <img>Urgot.png</img>
-    </ChampionDto>
-    <ChampionDto id="110" k="Varus" name="Varus">
-      <img>Varus.png</img>
-    </ChampionDto>
-    <ChampionDto id="67" k="Vayne" name="Vayne">
-      <img>Vayne.png</img>
-    </ChampionDto>
-    <ChampionDto id="45" k="Veigar" name="Veigar">
-      <img>Veigar.png</img>
-    </ChampionDto>
-    <ChampionDto id="161" k="Velkoz" name="Vel'Koz">
-      <img>Velkoz.png</img>
-    </ChampionDto>
-    <ChampionDto id="254" k="Vi" name="Vi">
-      <img>Vi.png</img>
-    </ChampionDto>
-    <ChampionDto id="112" k="Viktor" name="Viktor">
-      <img>Viktor.png</img>
-    </ChampionDto>
-    <ChampionDto id="8" k="Vladimir" name="Vladimir">
-      <img>Vladimir.png</img>
-    </ChampionDto>
-    <ChampionDto id="106" k="Volibear" name="Volibear">
-      <img>Volibear.png</img>
-    </ChampionDto>
-    <ChampionDto id="19" k="Warwick" name="Warwick">
-      <img>Warwick.png</img>
-    </ChampionDto>
-    <ChampionDto id="498" k="Xayah" name="Xayah">
-      <img>Xayah.png</img>
-    </ChampionDto>
-    <ChampionDto id="101" k="Xerath" name="Xerath">
-      <img>Xerath.png</img>
-    </ChampionDto>
-    <ChampionDto id="5" k="XinZhao" name="Xin Zhao">
-      <img>XinZhao.png</img>
-    </ChampionDto>
-    <ChampionDto id="157" k="Yasuo" name="Yasuo">
-      <img>Yasuo.png</img>
-    </ChampionDto>
-    <ChampionDto id="83" k="Yorick" name="Yorick">
-      <img>Yorick.png</img>
-    </ChampionDto>
-    <ChampionDto id="350" k="Yuumi" name="Yuumi">
-      <img>Yuumi.png</img>
-    </ChampionDto>
-    <ChampionDto id="154" k="Zac" name="Zac">
-      <img>Zac.png</img>
-    </ChampionDto>
-    <ChampionDto id="238" k="Zed" name="Zed">
-      <img>Zed.png</img>
-    </ChampionDto>
-    <ChampionDto id="115" k="Ziggs" name="Ziggs">
-      <img>Ziggs.png</img>
-    </ChampionDto>
-    <ChampionDto id="26" k="Zilean" name="Zilean">
-      <img>Zilean.png</img>
-    </ChampionDto>
-    <ChampionDto id="142" k="Zoe" name="Zoe">
-      <img>Zoe.png</img>
-    </ChampionDto>
-    <ChampionDto id="143" k="Zyra" name="Zyra">
-      <img>Zyra.png</img>
-    </ChampionDto>
-  </champions>
 </XmlDbContext>
