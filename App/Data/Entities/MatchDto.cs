@@ -14,15 +14,17 @@ namespace App.Data.Entities
         public List<ParticipantDto> Participants { get; set; }
 
         [XmlAttribute("w")]
-        public int WinningTeam {get; set;}
+        public bool Won {get; set;}
 
         [XmlElement("at")]
         public DateTime GameCreation { get; set; }
 
+/*
         public bool Won(string name)
         {
             var team = Participants.First(p => p.SummonerName == name).TeamId;
             return team == WinningTeam;
         }
+        */
     }
 }

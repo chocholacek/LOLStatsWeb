@@ -18,9 +18,8 @@
 
     int Wins()
     {
-        return Model.Matches
-            .Where(m => m.Won(Model.Name))
-            .Count();
+        return Model.Winrate;
+            
     }
 
     int Loses()
@@ -70,13 +69,13 @@ table, th, td {
     <tbody>
         @foreach (var m in @Model.Matches)
         {
-            <tr style='background: @(m.Won(Model.Name) ? "cornflowerblue" : "red");'>
+            <tr style='background: @(m.Won ? "cornflowerblue" : "red");'>
                 @{
                     var ago = DateTime.Now.Subtract(m.GameCreation);
                     var dur = m.GameDuration;
                 }
                 <td>
-                    <div>@(m.Won(Model.Name) ? "Victory" : "Defeat")</div>
+                    <div>@(m.Won ? "Victory" : "Defeat")</div>
                     @if (ago.Days > 0)
                     {
                         <div>@ago.Days days ago</div>

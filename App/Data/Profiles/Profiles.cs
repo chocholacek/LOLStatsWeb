@@ -34,7 +34,7 @@ namespace App.Data.Profiles
 
             CreateMap<Match, MatchDto>()
                 .ForMember(dest => dest.Participants, m => m.MapFrom(selector))
-                .ForMember(dest => dest.WinningTeam, 
+                .ForMember(dest => dest.Won, 
                     m => m.MapFrom(src => src.Teams.First(t => t.Win == "Win").TeamId));
 
             CreateMap<Champion, ChampionDto>();
