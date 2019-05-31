@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <XmlDbContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <version>9.11.1</version>
   <summoner id="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM" aid="wyi7pBsRQaJCLYkPP-TUETdBsWVIhmfOF5VXhUtap8_RKa4" sid="rBYzlt717FEOfczxXGXf304Xrude-uK5DGgbe6juE_tL3hM">
     <name>Marzi</name>
     <level>157</level>
@@ -150,7 +149,8 @@
     </match>
     <wr>3</wr>
   </summoner>
-  <champions>
+  <champions />
+</XmlDbContext>champions>
     <ChampionDto id="266" k="Aatrox" name="Aatrox">
       <img>Aatrox.png</img>
     </ChampionDto>
