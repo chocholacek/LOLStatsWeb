@@ -44,9 +44,8 @@ namespace App.Services.Summoner
         {
             name = FormatSummonerName(name);
             var dto = Db.Summoners.First(s => s.Name.ToLower() == name);
-            var idto = Db.Summoners.IndexOf(dto);
             var summoner = await Api.Summoner.GetSummonerByAccountIdAsync(Region.Eune, dto.AccountId);
-            dto = Mapper.Map<SummonerDto>(summoner);
+            Mapper.Map(summoner, dto);
             var positions = await Api.League.GetLeaguePositionsAsync(Region.Eune, dto.SummonerId);
             dto.Ranks = Mapper.Map<List<LeagueDto>>(positions);
             var games = await Api.Match.GetMatchListAsync(Region.Eune, dto.AccountId);
@@ -60,8 +59,6 @@ namespace App.Services.Summoner
             {
                 return (b.WinningTeam == b.Participants.Where(x => x.SummonerName == dto.Name).Select(t => t.TeamId).First()) ? a + 1 : a + 0;
             });
-            
-            Db.Summoners[idto] = dto;
             await Db.SaveChangesAsync();
             return dto;
         }
