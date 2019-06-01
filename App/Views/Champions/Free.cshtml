@@ -1,8 +1,16 @@
 @model List<ChampionDto>
 
 <h2>Free rotation</h2>
-
-@foreach (var dto in Model)
-{
-    <div>@dto.Name</div>
-}
+<div class="row">
+    @foreach (var dto in Model)
+    {
+    <div class="col-3">
+        <div class="card">
+            <img src="@("https://ddragon.leagueoflegends.com/cdn/img/champion/loading/" + dto.Key + "_0.jpg")" class="card-img-top" alt="@(dto.Name)">
+            <div class="card-body">
+                <h5 class="card-title">@(dto.Name)</h5>
+            </div>
+        </div>
+    </div>
+    }
+</div>
