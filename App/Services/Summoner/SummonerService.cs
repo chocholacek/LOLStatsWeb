@@ -54,10 +54,21 @@ namespace App.Services.Summoner
                 .Take(10)
                 .Select(m => Api.Match.GetMatchAsync(Region.Eune, m.GameId).Result)
                 .ToList();
+
+
             dto.Matches = Mapper.Map<List<MatchDto>>(matches);
+            for (int i = 0; i < 10; i++)
+            {
+
+                dto.Matches[i].Won = matches[i].Teams.Where(t => t.Win == "Win").First().TeamId
+                  == matches[i].Participants.Where(p => p.ParticipantId == matches[i].ParticipantIdentities
+                 .Where(x => x.Player.CurrentAccountId == summoner.AccountId).First().ParticipantId).First().TeamId;
+
+            }
+
             dto.Winrate = dto.Matches.Aggregate(0, (a, b) =>
             {
-                return (b.WinningTeam == b.Participants.Where(x => x.SummonerName == dto.Name).Select(t => t.TeamId).First()) ? a + 1 : a + 0;
+                return (b.Won == true ? a + 1 : a);
             });
             await Db.SaveChangesAsync();
             return dto;
