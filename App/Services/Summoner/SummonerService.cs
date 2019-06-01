@@ -22,7 +22,7 @@ namespace App.Services.Summoner
         public async Task<SummonerDto> GetSummonerAsync(string name)
         {
             name = FormatSummonerName(name);
-            var sum = Db.Summoners.FirstOrDefault(s => s.Name.ToLower() == name.ToLower());
+            var sum = Db.Summoners.FirstOrDefault(s => FormatSummonerName(s.Name) == name.ToLower());
             if (sum == null)
             {
                 try
@@ -43,7 +43,7 @@ namespace App.Services.Summoner
         public async Task<SummonerDto> UpdateSummonerAsync(string name)
         {
             name = FormatSummonerName(name);
-            var dto = Db.Summoners.First(s => s.Name.ToLower() == name);
+            var dto = Db.Summoners.First(s => FormatSummonerName(s.Name) == name);
             var summoner = await Api.Summoner.GetSummonerByAccountIdAsync(Region.Eune, dto.AccountId);
             Mapper.Map(summoner, dto);
             var positions = await Api.League.GetLeaguePositionsAsync(Region.Eune, dto.SummonerId);
