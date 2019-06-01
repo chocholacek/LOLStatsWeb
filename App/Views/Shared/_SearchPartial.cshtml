@@ -1,6 +1,11 @@
 @model SearchBoxModel
 
 <form method="get" asp-controller="Summoner" asp-action="Index">
-    <input asp-for="Name"/>
-    <button type="submit">Submit</button>
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Summoner's name" aria-label="Summoner's name" asp-for="Name">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary d-flex justify-content-center align-content-between" type="submit"><i class="material-icons mr-1">search</i> Search</button>
+        </div>
+    </div>
 </form>
+

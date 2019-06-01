@@ -4,7 +4,7 @@
     var blue = 100;
     var red = 200;
 
-    var qt = new Dictionary<string,string>
+    var qt = new Dictionary<string, string>
     {
         ["RANKED_SOLO_5x5"] = "Solo/Duo",
         ["RANKED_FLEX_SR"] = "Flex 5v5",
@@ -19,7 +19,7 @@
     int Wins()
     {
         return Model.Winrate;
-            
+
     }
 
     int Loses()
@@ -29,110 +29,133 @@
 }
 
 <style>
-table, th, td {
-  border: 1px solid black;
-}
+    table, th, td {
+        border: 1px solid black;
+    }
 </style>
 
-<h2>@Model.Name</h2>
-<table>
-    <tbody>
-        <tr>
-            <td>level: @Model.Level</td>
-        </tr>
-        <tr>
-            @foreach (var r in Model.Ranks)
-            {
-                <td>
-                    <div>@qt[r.QueueType]</div>
-                    <div>@($"{r.Tier} {r.Rank}")</div>
-                    <div>@(WR(r.Winrate))% winrate</div>
-                </td>
+<div class="row">
+
+    <div class="col-10">
+        <h1>@Model.Name <span class="badge badge-secondary">lvl. @Model.Level</span></h1>
+    </div>
+
+    <div class="col-2">
+        <form method="post">
+            <button type="submit" class="btn btn-dark btn-lg d-flex justify-content-center align-content-between">
+                    <i class="material-icons mt-1 mr-2">autorenew</i> Update
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    @foreach (var r in Model.Ranks)
+    {
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">@qt[r.QueueType]</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">@($"{r.Tier} {r.Rank}")</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: @(WR(r.Winrate))%;" aria-valuenow="@(WR(r.Winrate))" aria-valuemin="0" aria-valuemax="100">Winrate: @(WR(r.Winrate))%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="row space">
+    <div class="col-12">
+        <h2>Last 10 games:</h2>
+        <h6 class="text-muted">Win ratio: @(Model.Winrate / 0.1)%</h6>
+    </div>
+
+
+    <div class="col-12">
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: @(Wins() * 10)%;" aria-valuenow="@(Wins())" aria-valuemin="0" aria-valuemax="10">Wins: @(Wins())</div>
+            <div class="progress-bar bg-danger" role="progressbar" style="width: @(Loses() * 10)%;" aria-valuenow="@(Loses())" aria-valuemin="0" aria-valuemax="10">Loses: @(Loses())</div>
+        </div>
+    </div>
+</div>
+
+@foreach (var m in @Model.Matches)
+{
+    <div class="card">
+        <div class="card-header  @(m.Won ? "bg-success" : "bg-danger" )">
+            @{
+                var ago = DateTime.Now.Subtract(m.GameCreation);
+                var dur = m.GameDuration;
             }
-            
-        </tr>
-    </tbody>
-</table>
+            <div class="row">
+                <div class="col text-white">
+                    <h4>
+                        @(m.Won ? "Victory" : "Defeat")
+                        @if (ago.Days > 0)
+                        {
+                            @($"{ago.Days} day")
+                            @if (ago.Days > 1)
+                            {
+                                @($"s")
+                            }
 
-<form method="post">
-    <button type="submit">Update</button>
-</form>
+                        }
+                        else
+                        {
+                            @($"{ago.Hours}h {ago.Minutes}m")
+                        }
+                        ago
+                    </h4>
+                </div>
 
-<table>
-    <thead>
-        <tr>
-            <td>@(Wins())W</td>
-            <td>@(Loses())L</td>
-            <td>Win ratio: @(Model.Winrate / 0.1)%</td>
-        </tr>
-        
-    </thead>
-    <tbody>
-        @foreach (var m in @Model.Matches)
-        {
-            <tr style='background: @(m.Won ? "cornflowerblue" : "red");'>
-                @{
-                    var ago = DateTime.Now.Subtract(m.GameCreation);
-                    var dur = m.GameDuration;
-                }
-                <td>
-                    <div>@(m.Won ? "Victory" : "Defeat")</div>
-                    @if (ago.Days > 0)
-                    {
-                        <div>@ago.Days days ago</div>
-                    }
-                    else
-                    {
-                        <div>@($"{ago.Hours}h {ago.Minutes}m ago")</div>
-                    }
-                    <div>duration: @($"{dur.Minutes}m {dur.Seconds}s")</div>
-                </td>
-                <td>
-                    <div>Blue team:</div>
-                    <div>
-                        <table>
-                            <tbody>
-                                @foreach (var p in m.Participants.Where(p => p.TeamId == blue))
+                <div class="col text-white text-right">
+                    <h4>@($"{dur.Minutes}m {dur.Seconds}s")</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4>Blue team:</h4>
+                    <ul class="list-unstyled">
+                        @foreach (var p in m.Participants.Where(p => p.TeamId == blue))
+                        {
+                            <li>
+                                @if (p.SummonerName != Model.Name)
                                 {
-                                    <tr>
-                                        @if (p.SummonerName != Model.Name)
-                                        {
-                                            <td><a asp-route-name="@p.SummonerName">@p.SummonerName</a></td>
-                                        }
-                                        else
-                                        {
-                                            <td>@Model.Name</td>
-                                        }                                     
-                                    </tr>
+                                    <a asp-route-name="@p.SummonerName">@p.SummonerName</a>
                                 }
-                            </tbody>
-                        </table>
-                    </div>
-                </td>
-                <td>
-                    <div>Red team:</div>
-                    <div>
-                        <table>
-                            <tbody>
-                                @foreach (var p in m.Participants.Where(p => p.TeamId == red))
+                                else
                                 {
-                                    <tr>
-                                        @if (p.SummonerName != Model.Name)
-                                        {
-                                            <td><a asp-route-name="@p.SummonerName">@p.SummonerName</a></td>
-                                        }
-                                        else
-                                        {
-                                            <td>@Model.Name</td>
-                                        }   
-                                    </tr>
+                                    @Model.Name
                                 }
-                            </tbody>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Red team:</h4>
+                    <ul class="list-unstyled">
+                        @foreach (var p in m.Participants.Where(p => p.TeamId == red))
+                        {
+                            <li>
+                                @if (p.SummonerName != Model.Name)
+                                {
+                                    <a asp-route-name="@p.SummonerName">@p.SummonerName</a>
+                                }
+                                else
+                                {
+                                    @Model.Name
+                                }
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 

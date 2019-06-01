@@ -54,3 +54,13 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.landing-page {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+}
+
+.space {
+    padding: 50px 0;
+}
