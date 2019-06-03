@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<xsd:schema version="1.0" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xsd:element name="XmlDbContext">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="version" type="xsd:string" minOccurs="0" />
+                <xsd:element name="summoners" type="sumsT" minOccurs="0" />
+                <xsd:element name="champions" type="champsT" minOccurs="0" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="sumsT">
+        <xsd:sequence>
+            <xsd:element name="summoner" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="name" type="xsd:string"/>
+                        <xsd:element name="level" type="xsd:positiveInteger"/>
+                        <xsd:element name="league" type="leagueT" minOccurs="0" maxOccurs="3"/>
+                        <xsd:element name="matches" type="matchesT"/>
+                        <xsd:element name="wr">
+                            <xsd:simpleType>
+                                <xsd:restriction base="xsd:integer">
+                                    <xsd:minInclusive value="0"/>
+                                    <xsd:maxInclusive value="10"/>
+                                </xsd:restriction>
+                            </xsd:simpleType>
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute name="id" type="xsd:string" use="required"/>
+                    <xsd:attribute name="aid" type="xsd:string" use="required"/>
+                    <xsd:attribute name="sid" type="xsd:string" use="required"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="leagueT">
+        <xsd:sequence>
+            <xsd:element name="tier" type="xsd:string"/>
+            <xsd:element name="rank" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="q" use="required">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="RANKED_FLEX_TT"/>
+                    <xsd:enumeration value="RANKED_FLEX_SR"/>
+                    <xsd:enumeration value="RANKED_SOLO_5x5"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="wr" type="xsd:double"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="matchesT">
+        <xsd:sequence>
+            <xsd:element name="match" minOccurs="0" maxOccurs="10">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="dur" type="xsd:string"/>
+                        <xsd:element name="participant" type="participT" maxOccurs="unbounded"/>
+                        <xsd:element name="at" type="xsd:dateTime"/>
+                    </xsd:sequence>
+                    <xsd:attribute name="w" type="xsd:boolean"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="participT">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="cid" type="xsd:positiveInteger"/>
+        <xsd:attribute name="tid">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:positiveInteger">
+                    <xsd:enumeration value="100"/>
+                    <xsd:enumeration value="200"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="champsT">
+        <xsd:sequence>
+            <xsd:element name="champion" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="img" type="xsd:string" />
+                    </xsd:sequence>
+                    <xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+                    <xsd:attribute name="k" type="xsd:string" use="required" />
+                    <xsd:attribute name="name" type="xsd:string" use="required" />
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>
