@@ -1,0 +1,21 @@
+﻿
+<article xmlns='http://docbook.org/ns/docbook'>
+ <info>
+  <title>LolStatsWeb Zpráva</title>
+  <author><personname>
+ <firstname>Róbert</firstname>
+ <surname>Tamáš</surname>
+  </personname></author>
+   </info>
+
+ <section id="Rozdělení">
+  <title>Rozdelenie tímu</title>
+  <para>Vzhľadom na moju záľubu tvorby webových stránok v HTML sme sa v tíme dohodli, že budem mať na starost transformáciu dát pre užívateľa.</para>
+  </section>
+
+ <section id="Práce">
+  <title>Práca na projekte</title>
+  <para>Mojou hlavnou úlohou pri tvorbe projektu bolo zabezpečiť užívateľovi jednoduchšiu prácu pri manipulácií s dátami. Pre zobrazenie dát sme sa rozhodli použiť transformáciu do cshtml. Aplikácia bola rozdelená na tri časti home page, free rotations a summoner stats. Po otvorení aplikácie sa ako prvá zobrazí home page z ktorej sa dá jednoducho vyhľadať jednotlivého uživateľa alebo prejsť na stránku s voľne dostupnými postavami. Pre vacšiu prehľadnosť pri každej postave je aj jej avatar. Stránka so štatistikou užívateľa obsahuje základné info o jeho postupe v lige, pre načítanie zoznamu jeho posledných hier je potrebné stlačiť tlačidlo update. Po načítaní dát sa z API sa uložia a pri znovu vyhladaní toho istého užívateľa sa načítajú z DB. Pri vývoji som využil knižnicu Bootstrap, vďaka ktorej som mohol získané dáta lepšie vizualizovať napríklad do horizontálneho stĺpcového grafu. Zoznam posledných hier obsahuje zoznam ostatných užívateľov, ktorý boli s danou hrou spojený. Po kliknutí na iného užívateľa sa načíta štatistika pre daného užívateľa.</para>
+ </section>
+
+</article>
