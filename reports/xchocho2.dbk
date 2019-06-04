@@ -1,0 +1,32 @@
+<article xmlns='http://docbook.org/ns/docbook'>
+ <info>
+  <title>LolStatsWeb Zpráva</title>
+  <author><personname>
+ <firstname>Marek</firstname>
+ <surname>Chocholáček</surname>
+  </personname></author>
+   </info>
+
+ <section id="Rozdělení">
+  <title>Rozdelenie tímu</title>
+  <para>Bol som teamleader projektu a backend developer.</para>
+  </section>
+
+ <section id="Práce">
+  <title>Práca na projekte</title>
+  <para>Mojou hlavnou úlohou bolo vytvoriť pre zbytok tímu funkčný základ aplikácie. Toto obnáša vybavenie RIOT API kľúča,
+  vytvorenie XML databázy, pripravenie celého data-access layeru v aplikácii, vytvorenie základného návrhu razor viewov, vytvorenie základnej
+  funkcionality servís a mnohé ďalšie.
+  
+  Mojou povinnosťou ako team leadra bolo menežovať team, pridávať im tasky a konzultovať s nimi čo ešte treba spraviť. Tak isto som vytváral issues
+  na gite a mergoval pull requesty.
+  
+  Ďalej som vytvoril XML schéma pre našu XML databázu a upravoval/rozširoval som čast wiki.
+  
+  V konečnom dôsledku projekt nedopadol ako som očakával. Ja a Róbert sme museli pracovať na bakalárskych prácach, čo posunulo našu prácu na projekte
+  až na koniec Mája. Keby sme na to mali viac času, tak by sa projekt dal určite viac rozšíriť a prepracovať, aby neobsahoval iba tú najtriviálnejšiu
+  funkcionalitu. Čo sa týka nových vedomostí, tak som sa konečne dostal k tomu, ako sa vytvárajú issues a pull requesty na gite.
+  </para>
+ </section>
+
+</article>
