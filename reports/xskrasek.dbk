@@ -1,0 +1,29 @@
+<article xmlns='http://docbook.org/ns/docbook'>
+ <info>
+  <title>LolStatsWeb Zpráva</title>
+  <author><personname>
+ <firstname>Adam</firstname>
+ <surname>Skrášek</surname>
+  </personname></author>
+   </info>
+
+ <section id="Rozdělení">
+  <title>Rozdělení týmu</title>
+  <para>V projektu jsem se přihlásil k backendu, protože mám předchozí zkušenosti s
+  jazykem C# a tento semestr mám i předmět PV178. </para>
+  </section>
+
+ <section id="Práce">
+  <title>Práce na projektu</title>
+  <para>Většina mé práce na projektu obnášela detekci a opravu chyb i implementaci nových funkcí. Nejnáročnějším problémem
+        bylo odhalení chyby způsobené absencí verifikace uživatelského vstupu v prvních verzí aplikace, která v databázi
+        způsobila násobený výskyt stejných dat.
+
+        Jako novou funkcionalitu jsem implementoval například počátání winratu
+        z uložených her. Částečně jsem se podílel také na Wiki projektu.
+        
+        Při práci na projektu jsem se seznámil jsem se s 
+        využitím větví v gitu, resolvováním issues i mergem.</para>
+ </section>
+
+</article>
